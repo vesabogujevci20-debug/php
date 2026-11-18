@@ -3,7 +3,7 @@
  $host="localhost";
  $user="root";
  $pass="";
- $dbname="daris";
+ $dbname="digital2";
 
 
 try{
