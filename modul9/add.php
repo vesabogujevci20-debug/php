@@ -4,11 +4,11 @@
 
 include_once ('connection.php');
 
-if(isset($_POST['sumbit'])){
+if(isset($_POST['submit'])){
     $username=$_POST['username'];
     $password=$_POST['password'];
 
-    $sql="insert into users (name,password)
+    $sql="insert into users (username,password)
     values(:username,:password)";
 
     $sqlQuery=$conn->prepare($sql);
